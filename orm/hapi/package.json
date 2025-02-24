@@ -8,7 +8,8 @@
   "dependencies": {
     "@hapi/hapi": "21.3.12",
     "@prisma/client": "6.4.1",
-    "@types/node": "22.13.5"
+    "@prisma/extension-accelerate": "^1.2.2",
+    "@types/node": "22.13.1"
   },
   "devDependencies": {
     "@types/express": "5.0.0",

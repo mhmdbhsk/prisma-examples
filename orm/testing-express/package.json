@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "prettier": {
     "semi": false,
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@prisma/client": "6.4.1",
-    "@types/node": "22.13.5",
+    "@prisma/extension-accelerate": "^1.2.2",
+    "@types/node": "22.13.1",
     "express": "4.21.2",
     "jest-config": "29.7.0"
   },
